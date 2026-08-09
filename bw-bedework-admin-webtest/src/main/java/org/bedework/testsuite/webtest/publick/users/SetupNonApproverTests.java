@@ -58,7 +58,7 @@ public class SetupNonApproverTests extends PublicAdminTestBase {
 
     msgStr("Add non-approver user to non-approver group");
     addUserToGroup("nonApproverUser",
-                   "nonApproverGroupParentName");
+                   "nonApproverUserGroupName");
 
     msgStr("Logging out from non-approver setup");
     logout();
